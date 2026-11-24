@@ -11,14 +11,16 @@
 body{margin:0;background:var(--paper);color:var(--ink);font-family:'Inter',Arial,sans-serif;line-height:1.6;font-size:18px}
 main{max-width:720px;margin:0 auto;padding:32px 18px 80px}
 h1{font-family:'Space Grotesk',Arial,sans-serif;font-size:clamp(30px,6vw,44px);line-height:1.1;margin:0 0 10px}
-h2{font-family:'Space Grotesk',Arial,sans-serif;font-size:24px;margin:44px 0 10px}
+h2{font-family:'Space Grotesk',Arial,sans-serif;font-size:24px;margin:44px 0 6px}
+.step{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0}
 p,li{margin:0 0 10px}
 .lead{font-size:20px;color:var(--muted);margin-bottom:28px}
 .box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:12px 0}
 .big{font-family:'Space Grotesk',Arial,sans-serif;font-size:28px;font-weight:700}
 .ph{background:#FFF1D6;padding:0 4px;border-radius:4px;color:#7A4B0B;font-weight:600}
 .small{font-size:15px;color:var(--muted)}
-ul{padding-left:22px;margin:0}
+ul,ol{padding-left:22px;margin:0}
+.toc{font-size:16px;color:var(--muted);margin:0 0 20px}
 </style>
 </head>
 <body>
@@ -26,7 +28,9 @@ ul{padding-left:22px;margin:0}
 
 <h1>Toronto Painters: expansion plan</h1>
 <p class="lead">We want to open up to 50 paint branches. Each one runs the same way. We start with 2 or 3, and add more only when they work.</p>
+<p class="toc">Parts: 1 Summary · 2 Problem · 3 How it works · 4 Market · 5 Sales and leads · 6 Money · 7 Proof and rollout · 8 Team · 9 Risks · 10 The ask · 11 Open questions</p>
 
+<p class="step">1. Summary</p>
 <h2>What we are building</h2>
 <div class="box">
 <ul>
@@ -36,47 +40,71 @@ ul{padding-left:22px;margin:0}
 </ul>
 </div>
 
-<h2>The money we need</h2>
+<p class="step">2. Problem</p>
+<h2>Why this matters</h2>
+<p>Painting companies lose leads through slow replies, and quotes and invoices are often done by hand. Each new city starts from scratch, so quality varies.</p>
+
+<p class="step">3. How it works</p>
+<h2>How a branch runs</h2>
+<p>Every branch uses the same software, the same agent and the same playbook. That makes branches easy to compare and easy to copy.</p>
+
+<p class="step">4. Market</p>
+<h2>Where we sell</h2>
+<p>Homeowners and property managers who need painting. Target cities for the first branches: <span class="ph">[ to choose ]</span>. Local demand and competitors: <span class="ph">[ to research ]</span>.</p>
+
+<p class="step">5. Sales and leads</p>
+<h2>How we get jobs</h2>
+<ul>
+<li>Advertising brings in enquiries.</li>
+<li>The agent answers each enquiry and follows up the same day.</li>
+<li>ROK turns each lead into a quote and a signed job.</li>
+</ul>
+
+<p class="step">6. Money</p>
+<h2>What it costs</h2>
 <div class="box">
 <p>Setup per branch: <span class="big">700$</span> one time</p>
 <p>Advertising per branch: <span class="big">7,000$</span> a month <span class="ph">[to confirm: per branch or total?]</span></p>
 </div>
-<p class="small">For 50 branches, setup is 35,000$. Advertising would be 350,000$ a month if 7,000$ is per branch. If 7,000$ is the total, it is 140$ per branch.</p>
+<p class="small">For 50 branches: setup 35,000$. Advertising 350,000$ a month if 7,000$ is per branch, or 140$ per branch if 7,000$ is the total.</p>
+<p>Revenue per job and margin: <span class="ph">[ __ ]</span></p>
 
+<p class="step">7. Proof and rollout</p>
 <h2>What we must prove first</h2>
-<p>We test with 2 or 3 branches for <span class="ph">[90]</span> days. We need three numbers to be good:</p>
+<p>A pilot of 2 or 3 branches for <span class="ph">[90]</span> days. Three numbers must be good before we grow:</p>
 <div class="box">
-<ol style="margin:0;padding-left:22px">
-<li>How many leads each branch gets per month: <span class="ph">[ __ ]</span></li>
-<li>What each lead costs us: <span class="ph">[ $__ ]</span></li>
-<li>How many paint jobs each branch must close per month to pay for its advertising: <span class="ph">[ __ ]</span></li>
+<ol>
+<li>Leads per branch per month: <span class="ph">[ __ ]</span></li>
+<li>Cost per lead: <span class="ph">[ $__ ]</span></li>
+<li>Paint jobs needed per month to cover the advertising: <span class="ph">[ __ ]</span></li>
 </ol>
 </div>
+<p><b>Rollout:</b> pilot, then <span class="ph">[__]</span> more branches if the numbers hold, then the rest in small groups.</p>
 
-<h2>How we roll out</h2>
+<p class="step">8. Team</p>
+<h2>Who runs it</h2>
+<p>Who runs each branch: <span class="ph">[ to define ]</span>. The central office runs the software, agent, playbook and reports.</p>
+
+<p class="step">9. Risks</p>
+<h2>What could go wrong</h2>
 <ul>
-<li><b>Step 1:</b> pilot with 2 or 3 branches.</li>
-<li><b>Step 2:</b> if the three numbers are good, open <span class="ph">[__]</span> more.</li>
-<li><b>Step 3:</b> open the rest in small groups, checking each group first.</li>
+<li>Ads cost more than the jobs they bring in. <i>We cap spend until a branch breaks even.</i></li>
+<li>Branches work differently. <i>Same playbook and software everywhere.</i></li>
+<li>Cheap leads that never buy. <i>We track cost per real lead.</i></li>
 </ul>
 
-<h2>The risks</h2>
-<ul>
-<li>We spend on ads before jobs pay. <i>We cap spending until a branch breaks even.</i></li>
-<li>Branches do the work differently. <i>Everyone uses the same playbook and software.</i></li>
-<li>Cheap leads that never buy. <i>We track cost per real lead, not per enquiry.</i></li>
-</ul>
-
-<h2>What we ask for</h2>
+<p class="step">10. The ask</p>
+<h2>What we need</h2>
 <div class="box">
 <p>Approve a pilot of 2 or 3 branches.</p>
 <p>Pilot budget: <span class="ph">[ $__ ]</span></p>
 </div>
 
+<p class="step">11. Open questions</p>
 <h2>Still unknown</h2>
 <ul>
-<li>Is the 7,000$ per branch or total?</li>
-<li>How much each paint job earns and costs.</li>
+<li>Is 7,000$ per branch or total?</li>
+<li>Revenue, cost and margin per job.</li>
 <li>Who runs each branch.</li>
 </ul>
 
